@@ -1,12 +1,11 @@
-import { StatusBar } from "expo-status-bar";
-import React from "react";
 import "react-native-gesture-handler";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { NavigationContainer } from "@react-navigation/native";
+import { StatusBar } from "expo-status-bar";
 
-import Home from "./src/screens/home";
-import Contact from "./src/screens/contact";
-import Profile from "./src/screens/profile";
+import Home from "./src/screens/Home";
+import Contact from "./src/screens/Contact";
+import Profile from "./src/screens/Profile";
 
 const Drawer = createDrawerNavigator();
 
